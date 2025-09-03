@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Falling Hearts Background -->
+    <div class="falling-hearts-container" id="heartsContainer"></div>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <h1 class="nav-logo">Love Story 💕</h1>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#countdown" class="nav-link">Countdown</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#letter" class="nav-link">Love Letter</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Happy Birthday, Nisa 💖</h1>
+                <p class="hero-subtitle fade-in-delay">4 September 2025</p>
+                <div class="hero-decoration">
+                    <div class="heart-decoration">💕</div>
+                    <div class="heart-decoration">💖</div>
+                    <div class="heart-decoration">💝</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Player -->
+        <div class="music-player">
+            <button id="musicToggle" class="music-btn">
+                <i class="fas fa-play" id="musicIcon"></i>
+            </button>
+            <span class="music-label">Music</span>
+            <audio id="backgroundMusic" loop>
+                <source src="D:\xampp\htdocs\Bucin\mp3\Barasuara - Terbuang Dalam Waktu (Official Lyric Video).mp3" type="audio/wav">
+                <!-- Fallback romantic music -->
+                <source src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-one/zapsplat_multimedia_romantic_music_box_melody_simple_romantic_003_66142.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <!-- Countdown Section -->
+        <section id="countdown" class="countdown-section">
+            <div class="container">
+                <h2 class="section-title">Time Until Your Special Day</h2>
+                <div class="countdown-container">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="days">00</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">00</span>
+                        <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">00</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="seconds">00</span>
+                        <span class="countdown-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Our Beautiful Memories</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\1.JPG" alt="Our Love" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Together Forever</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\2.JPG" alt="Sweet Moments" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Sweet Moments</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\3.JPG" alt="Love Story" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Our Love Story</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\4.JPG" alt="Perfect Match" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Perfect Match</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\5.JPG" alt="Happiness" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Pure Happiness</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\13.JPG" alt="Love Forever" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Love Forever</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\7.JPG" alt="Eternal Bond" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Eternal Bond</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\8.JPG" alt="Endless Bliss" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Endless Bliss</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\9.JPG" alt="Timeless Love" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Timeless Love</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\10.JPG" alt="Endless Journey" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Endless Journey</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\11.JPG" alt="Forever Us" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Forever Us</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="D:\xampp\htdocs\Bucin\img\12.JPG" alt="Infinite Dream" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Infinite Dream</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Letter Section -->
+        <section id="letter" class="letter-section">
+            <div class="container">
+                <h2 class="section-title">A Letter From My Heart</h2>
+                <div class="letter-card">
+                    <div class="letter-header">
+                        <img src="D:\xampp\htdocs\Bucin\img\gue1.png" alt="Heart Decoration" class="letter-decoration">
+                        <h3 class="letter-title">To My Dearest Love</h3>
+                    </div>
+                    <div class="letter-content">
+                        <p class="letter-text">
+                            Nisa, istriku di masa depan,
+                        </p>
+                        <p class="letter-text">
+                            Pada hari ini usiamu bertambah<br>
+                            Langit berdoa, bumi ikut bernyanyi<br>
+                            Hadirmu bak cahaya yang merambah<br>
+                            Menyinari langkah, menuntun hati<br>
+                        </p>
+                        <p class="letter-text">
+                            Senyummu bagai fajar di ufuk timur<br>
+                            Tawamu seindah gemericik sungai<br>
+                            Cintamu hangat, teduh bagai syukur<br>
+                            Membuat hidup terasa damai<br>
+                        </p>
+                        <p class="letter-text">
+                            Engkau bukan sekadar belahan jiwa<br>
+                            Kau sahabat setia, rumah ternyaman<br>
+                            Bersamamu kutemukan makna cinta<br>
+                            Tulus, sejati, tak lekang oleh zaman<br>
+                        </p>
+                        <p class="letter-text">
+                            Selamat ulang tahun, cintaku,<br>
+                            semoga bahagiamu tiada henti,<br>
+                            Dalam doa, janji, dan setiap waktuku<br>
+                            Aku mencintaimu lebih dari hari ke hari<br>
+                        </p>
+                        <p class="letter-signature">
+                            Forever and always yours,<br>
+                            Muhammad Fatih 💕
+                        </p>
+                    </div>
+                    <div class="letter-footer">
+                    </div>
+                </div>
+            </div>
+            <div class="container"><br><br> 
+                <div class="letter-card">
+                    <div class="letter-content">
+                    <div class="letter-video">
+                    <video autoplay loop muted playsinline controls width="100%" poster="img/cover.png">
+                    <source src="D:\xampp\htdocs\Bucin\video\sore.mov" type="video/mp4">
+                </video>
+                </div>
+                    </div>
+                    <div class="letter-footer">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Made with 💖 for the most amazing person in the world</p>
+            <div class="footer-hearts">
+                <span>💕</span>
+                <span>💖</span>
+                <span>💝</span>
+                <span>💗</span>
+                <span>💓</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
